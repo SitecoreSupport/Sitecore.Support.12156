@@ -32,9 +32,11 @@
           {
             _context.Put(parameter.Key, parameter.Value);
           }
-          StringWriter output = new StringWriter();
-          Velocity.Evaluate(_context, output, templateName, template);
-          return output.GetStringBuilder().ToString();
+          using (StringWriter output = new StringWriter())
+          {
+            Velocity.Evaluate(_context, output, templateName, template);
+            return output.GetStringBuilder().ToString(); 
+          }
         }
       }
       catch (Exception ex)
