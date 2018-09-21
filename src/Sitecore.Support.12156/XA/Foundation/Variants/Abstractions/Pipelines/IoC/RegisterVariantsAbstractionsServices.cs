@@ -10,7 +10,7 @@
     public override void Process(IocArgs args)
     {
       args.ServiceCollection.AddTransient<IVariantFieldParser, VariantFieldParser>();
-      args.ServiceCollection.AddSingleton<ITemplateRenderer, Sitecore.Support.XA.Foundation.Variants.Abstractions.Services.TemplateRenderer>();
+      args.ServiceCollection.AddTransient<ITemplateRenderer, Sitecore.Support.XA.Foundation.Variants.Abstractions.Services.TemplateRenderer>();
       args.ServiceCollection.AddTransient<IVariantRenderer, VariantRenderer>();
       args.ServiceCollection.AddTransient<IAvailableRenderingVariantService, AvailableRenderingVariantService>();
       args.ServiceCollection.AddTransient<IVariantRenderingService, VariantRenderingService>();
