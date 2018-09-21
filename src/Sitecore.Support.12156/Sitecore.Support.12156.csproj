@@ -42,28 +42,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Microsoft.Extensions.DependencyInjection.8.2.4\lib\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>..\packages\SC.Microsoft.Extensions.DependencyInjection.8.2.3\lib\Microsoft.Extensions.DependencyInjection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Microsoft.Extensions.DependencyInjection.Abstractions.8.2.4\lib\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\packages\SC.Microsoft.Extensions.DependencyInjection.Abstractions.8.2.3\lib\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.8.2.4\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.2.3\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.NVelocity, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.NVelocity.8.2.4\lib\Sitecore.NVelocity.dll</HintPath>
+    <Reference Include="Sitecore.NVelocity">
+      <HintPath>..\packages\SC.Sitecore.NVelocity.8.2.3\lib\Sitecore.NVelocity.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XA.Foundation.IoC, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.IoC.1.4.0\lib\Sitecore.XA.Foundation.IoC.dll</HintPath>
+    <Reference Include="Sitecore.XA.Foundation.IoC">
+      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.IoC.1.3.1\lib\Sitecore.XA.Foundation.IoC.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XA.Foundation.Variants.Abstractions, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.Variants.Abstractions.1.4.0\lib\Sitecore.XA.Foundation.Variants.Abstractions.dll</HintPath>
+    <Reference Include="Sitecore.XA.Foundation.Variants.Abstractions">
+      <HintPath>..\packages\SXA82.Sitecore.XA.Foundation.Variants.Abstractions.1.3.1\lib\Sitecore.XA.Foundation.Variants.Abstractions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
